@@ -1,0 +1,33 @@
+@font-face {
+    font-family: RobotoSlab ;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto ;
+    src: url(../fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf);
+}
+
+html {
+    width: 1440px;
+    height: 100%;
+}
+
+.about {
+    padding: 5%;
+    background-color: #EFEFEF;
+}
+
+.about-heading {
+    line-height: 93px; 
+}
+
+.about-heading_text {
+    font-family: RobotoSlab;
+    font-size: 55px;
+    margin-bottom: 3%;
+}
+
+.about-card {
+    width: 60%;
+}
