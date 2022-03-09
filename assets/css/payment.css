@@ -1,0 +1,46 @@
+.payment {
+    background-color: #9DC9C8;
+    padding: 10% 5%;
+}
+
+.payment-heading {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 3rem;
+}
+
+.payment-price {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 25px
+}
+
+.payment-price_text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 3rem;
+}
+
+.payment-about {
+    display: flex;
+}
+
+.payment-about_text1, .payment-about_text2 {
+    width: 25%;
+    margin-right: 5rem;
+}
+
+.payment-about-heading {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.payment-about-body {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+}
