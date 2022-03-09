@@ -1,33 +1,57 @@
 @font-face {
     font-family: RobotoSlab ;
-    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf);
 }
 
 @font-face {
     font-family: Roboto ;
-    src: url(../fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf);
-}
-
-html {
-    width: 1440px;
-    height: 100%;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
 .about {
+    font-size: 16px;
     padding: 5%;
     background-color: #EFEFEF;
 }
 
 .about-heading {
-    line-height: 93px; 
+    line-height: 5rem; 
 }
 
 .about-heading_text {
     font-family: RobotoSlab;
     font-size: 55px;
-    margin-bottom: 3%;
+    margin-bottom: 3rem;
 }
 
 .about-card {
-    width: 60%;
+    width: 65%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about-card_text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.about-card_profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    padding-right: 1.5rem;
+}
+
+.profile-name {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 5rem;
 }
