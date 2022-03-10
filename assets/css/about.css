@@ -25,7 +25,7 @@
 }
 
 .about-card {
-    width: 65%;
+    width: 790px;
     background-color: white;
     border-radius: 30px;
     padding: 2.5rem;
@@ -49,9 +49,96 @@
     padding-right: 1.5rem;
 }
 
+.profile-image > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .profile-name {
     font-family: RobotoSlab;
     font-weight: 700;
     font-size: 30px;
     line-height: 5rem;
+}
+
+/* Tablet mode */
+
+@media screen and (max-width: 1279px) and (min-width: 992px) {
+
+    .about-heading_text {
+        font-size: 36px;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-card {
+        width: 550px;
+    }
+
+    .about-card_text {
+        font-size: 12px;
+        margin-bottom: 1.5rem;
+        line-height: 1.5rem;
+    }
+    
+    .profile-image {
+        width: 110px;
+        height: auto;
+        padding-right: 1.5rem;
+    }
+    
+    .profile-name {
+        font-size: 17px;
+        line-height: 2rem;
+    }
+
+    .fb-logo {
+        width: 17px;
+    }
+}
+
+/* Mobile Mode */
+
+@media screen and (max-width: 991px) and (min-width: 320px) {
+
+    .about{
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-heading {
+        line-height: 2.5rem; 
+    }
+
+    .about-heading_text {
+        width: 60%;
+        font-size: 26px;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-card {
+        width: 100%;
+    }
+
+    .about-card_text {
+        font-size: 10px;
+        margin-bottom: 1.5rem;
+        line-height: 1.5rem;
+    }
+    
+    .profile-image {
+        width: 80px;
+        height: auto;
+        padding-right: 1.5rem;
+    }
+    
+    .profile-name {
+        font-size: 14px;
+        line-height: 2rem;
+    }
+
+    .fb-logo {
+        width: 14px;
+    }
 }
