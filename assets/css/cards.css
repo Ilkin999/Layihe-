@@ -1,0 +1,25 @@
+.cart{
+    background-color: white;
+    box-shadow: 0 4px 4px 0 grey;
+    border-radius: 30px ;
+}
+.cart img{
+    width: 100%;
+}
+.text h2, .text p {
+    margin-left: 20px;
+}
+.carts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 30px;
+}
+
+@media screen and (max-width:834px) and (min-width:320px) {
+    .carts{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px 30px;
+    }
+    
+}
