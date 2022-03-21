@@ -227,13 +227,13 @@
         line-height: 150%;
     }
 
-    #header .hero-right{
+    #header .hero-right {
         width: calc((100% / 12)*5);
         align-items: inherit;
         margin-left: auto;
     }
 
-    #header .hero-right .hero-ellipse{
+    #header .hero-right .hero-ellipse {
         bottom: 9px;
     }
 
@@ -241,9 +241,20 @@
         width: calc((100% / 12)*10);
     }
 
-    #header .hero-quote-row{
+    #header .hero-quote-row {
         flex-direction: row;
         justify-content: flex-end;
+    }
+
+    #header .quote {
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    #header .quote-author {
+        font-size: 12px;
+        line-height: 130%;
+        margin-top: 10px;
     }
 
 }
